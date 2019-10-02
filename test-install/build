@@ -35,3 +35,6 @@ make
 sudo make install
 
 g++ -std=c++11 -o worker worker.cc -lzmq -lzmqpp
+
+sudo touch /etc/ld.so.conf
+sudo ldconfig
